@@ -47,10 +47,12 @@ body {
 
 .heading_container img {
   max-width: 50px;
+  mix-blend-mode: multiply
 }
 
 .heading_container h2 {
   font-weight: bold;
+  font-style: italic;
   
 }
 
@@ -340,7 +342,7 @@ a:focus {
 
 .slider_section .detail-box h1 {
   font-weight: bold;
-  color: black;
+ 
   font-size: 3rem;
   padding-bottom: 15px;
   position: relative;
@@ -472,7 +474,8 @@ a:focus {
 
 .about_section .detail-box .heading_container h2 {
   color: #151515;
-  
+  font-size: larger;
+  text-transform: uppercase;
 }
 
 .about_section .detail-box p {
@@ -499,18 +502,20 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #e7d619;
+  color: black;
   text-transform: uppercase;
   
 }
 
 .about_section .detail-box .btn-box a img {
   margin-left: 5px;
+  filter: invert(1); /* Inverts yellow to blue, then use grayscale */
+  filter: invert(1) grayscale(1); /* Makes it completely black */
   
 }
 
 .animal_section {
-  background-image: url(../images/animal-bg.jpg);
+  background-image: url(../images/eww.png);
   background-size: cover;
   color: #ffffff;
   
