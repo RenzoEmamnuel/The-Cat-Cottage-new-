@@ -1,5 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",
+ sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -41,6 +42,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  
 }
 
 .heading_container img {
@@ -49,12 +51,13 @@ body {
 
 .heading_container h2 {
   font-weight: bold;
+  
 }
 
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/try1.png);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,7 +71,7 @@ body {
 
 .hero_area::before {
   content: "";
-  position: absolute;
+  position: absolute; 
   top: 0;
   right: 0;
   width: 45%;
@@ -332,19 +335,19 @@ a:focus {
 .slider_section .detail-box {
   margin: 45px 5% 0 5%;
   padding-bottom: 45px;
-  border-right: 2px solid #e7d619;
+  border-right: 2px solid black;
 }
 
 .slider_section .detail-box h1 {
   font-weight: bold;
-  color: #010001;
+  color: black;
   font-size: 3rem;
   padding-bottom: 15px;
   position: relative;
 }
 
 .slider_section .detail-box h1 span {
-  color: #e7d619;
+  color: #fdfd96;
 }
 
 .slider_section .detail-box .btn-box {
@@ -413,7 +416,7 @@ a:focus {
   height: 12px;
   opacity: 1;
   background: none;
-  border: 2px solid #e7d619;
+  border: 2px solid black;
   color: #000000;
   position: relative;
   margin: 0 4px;
@@ -438,10 +441,25 @@ a:focus {
           transform: rotate(25deg);
 }
 
+/* .about_section {
+  background-color: #b6cf7b; 
+  padding: 50px 0; Adds space above and below
+} */
+
+.about_section {
+  background-image: url('../images/noo.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 50px 0; 
+}
+
 .about_section .detail-box {
   text-align: center;
   width: 80%;
   margin: auto;
+
+  
 }
 
 .about_section .detail-box .heading_container {
@@ -449,15 +467,18 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  
 }
 
 .about_section .detail-box .heading_container h2 {
   color: #151515;
+  
 }
 
 .about_section .detail-box p {
   color: #0e0e0e;
   margin-top: 15px;
+  
 }
 
 .about_section .detail-box .btn-box {
@@ -468,6 +489,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 25px;
+  
 }
 
 .about_section .detail-box .btn-box a {
@@ -479,16 +501,19 @@ a:focus {
           align-items: center;
   color: #e7d619;
   text-transform: uppercase;
+  
 }
 
 .about_section .detail-box .btn-box a img {
   margin-left: 5px;
+  
 }
 
 .animal_section {
   background-image: url(../images/animal-bg.jpg);
   background-size: cover;
   color: #ffffff;
+  
 }
 
 .animal_section .animal_container {
@@ -896,6 +921,7 @@ a:focus {
 .client_section .box .detail-box h4 {
   text-transform: uppercase;
   font-size: 24px;
+  
 }
 
 .client_section .box .detail-box img {
@@ -1013,7 +1039,8 @@ a:focus {
   background-color: #0a2050;
   color: #ffffff;
   padding: 40px 0 75px 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .info_section .row > div {
@@ -1120,6 +1147,7 @@ a:focus {
 .footer_section a {
   color: #ffffff;
 }
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
