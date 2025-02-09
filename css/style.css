@@ -1153,6 +1153,12 @@ a:focus {
   color: #ffffff;
 }
 
+/* just added  */
 
+.cat-details p {
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* Adjusts line spacing */
+}
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
