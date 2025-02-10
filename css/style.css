@@ -715,6 +715,7 @@ a:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  
 }
 
 .us_section .us_container .box {
@@ -728,10 +729,12 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  
 }
 
 .us_section .us_container .box img {
   max-width: 100%;
+  
 }
 
 .us_section .us_container .box .img1-box {
@@ -745,6 +748,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          
 }
 
 .us_section .us_container .box .img2-box {
@@ -755,16 +759,19 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          
 }
 
 .us_section .us_container .box .detail-box {
   margin-top: 15px;
+  
 }
 
 .us_section .us_container .box .detail-box h6 {
   text-transform: uppercase;
   font-weight: bold;
   color: #0e0e0e;
+  
 }
 
 .us_section .us_container::before {
@@ -782,6 +789,7 @@ a:focus {
           transform: translateX(-50%);
   -webkit-animation: border-dance 4s infinite linear;
           animation: border-dance 4s infinite linear;
+          
 }
 
 @-webkit-keyframes border-dance {
@@ -810,6 +818,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 55px;
+  
 }
 
 .us_section .btn-box a {
@@ -821,10 +830,12 @@ a:focus {
           align-items: center;
   color: #e7d619;
   text-transform: uppercase;
+  
 }
 
 .us_section .btn-box a img {
   margin-left: 5px;
+  
 }
 
 .food_section {
