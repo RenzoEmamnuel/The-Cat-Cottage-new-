@@ -4434,6 +4434,25 @@ function getURL() { window.location.href; } var protocol = location.protocol; $.
 
 }));
 //# sourceMappingURL=bootstrap.js.map
-$('.message a').click(function(){
-  $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Select all elements with class "message a"
+  document.querySelectorAll(".message a").forEach(function (element) {
+      element.addEventListener("click", function (event) {
+          event.preventDefault(); // Prevents the default link behavior
+
+          // Select the login and register forms
+          const loginForm = document.querySelector(".login-form");
+          const registerForm = document.querySelector(".register-form");
+
+          // Toggle visibility using CSS display property
+          if (loginForm.style.display === "none") {
+              loginForm.style.display = "block";
+              registerForm.style.display = "none";
+          } else {
+              loginForm.style.display = "none";
+              registerForm.style.display = "block";
+          }
+      });
+  });
 });
