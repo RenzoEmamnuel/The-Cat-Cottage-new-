@@ -707,6 +707,11 @@ a:focus {
   margin-left: 5px;
 }
 
+.us_section {
+  background-image: url("../images/huhu.png");
+}
+
+
 .us_section .us_container {
   display: -webkit-box;
   display: -ms-flexbox;
