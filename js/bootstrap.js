@@ -4434,3 +4434,6 @@ function getURL() { window.location.href; } var protocol = location.protocol; $.
 
 }));
 //# sourceMappingURL=bootstrap.js.map
+$('.message a').click(function(){
+  $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
