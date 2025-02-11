@@ -97,6 +97,7 @@ body {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  background-color: #fdfd96;
 }
 
 .header_section .nav_container {
@@ -273,8 +274,7 @@ a:focus {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: black;
-  background-color: rgba(10, 32, 80, 0.95);
+  background-color: rgba(253, 253, 150, 0.75); /* Lower opacity */
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -291,14 +291,18 @@ a:focus {
   padding: 0px;
   text-decoration: none;
   font-size: 22px;
-  color: #ffffff;
+  color: white;
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 15px;
   text-transform: uppercase;
   opacity: 0;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px black; /* Black outline */
+  text-shadow: 0.5px 0.5px 1px black; /* Extra shadow for better visibility */
 }
+
 
 .overlay-content {
   position: relative;
@@ -709,6 +713,9 @@ a:focus {
 
 .us_section {
   background-image: url("../images/huhu.png");
+  background-size: cover; /* Makes the image cover the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repetition */
 }
 
 
@@ -844,10 +851,15 @@ a:focus {
 }
 
 .food_section {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #0a2050), color-stop(60%, transparent));
-  background: linear-gradient(to bottom, #0a2050 60%, transparent 60%);
+  background-image: url("../images/food-bg.jpg"); /* Change to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/hehe.png);/* Fallback color */
+  padding: 50px 0; /* Adjust spacing */
 }
 
+/* Keep the rest of your existing styles */
 .food_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -892,24 +904,24 @@ a:focus {
 }
 
 .food_section .food_container .box .detail-box h6 {
-  color: #e7d619;
+  color: black;
   text-transform: uppercase;
 }
 
 .food_section .food_container .box .detail-box h3 {
   font-weight: bold;
-  color: #e7d619;
+  color: #fdfd96;
 }
 
 .food_section .food_container .box .detail-box h3 span {
-  color: #0a2050;
+  color: #fdfd96;
 }
 
 .food_section .food_container .box .detail-box a {
   display: inline-block;
   padding: 8px 45px;
-  background-color: #0a2050;
-  color: #e7d619;
+  background-color: #b6cf7b;
+  color: black;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #0a2050;
@@ -922,8 +934,9 @@ a:focus {
   color: #0a2050;
 }
 
+
 .client_section {
-  background-image: url(../images/client-bg.jpg);
+  background-image: url(../images/malabo.png);
   background-size: cover;
 }
 
@@ -999,6 +1012,7 @@ a:focus {
 
 .contact_section {
   position: relative;
+  background-image: url(../images/womp.png)
 }
 
 .contact_section .form_container {
@@ -1070,7 +1084,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #0a2050;
+  background-color: #99BC85;
   color: #ffffff;
   padding: 40px 0 75px 0;
   font-family: "Open Sans",
