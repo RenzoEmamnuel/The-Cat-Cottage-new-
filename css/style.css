@@ -149,12 +149,14 @@ a:focus {
 
 .navbar-brand img {
   width: 65px;
+  height: 85px;
+ 
 }
 
 .custom_nav-container {
   z-index: 99999;
   padding: 0;
-  height: 80px;
+  height: 82px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1293,9 +1295,10 @@ a:focus {
   color: #EF3B3A;
 }
 body {
- 
+  background: #fdfd96; /* fallback for old browsers */
+  background: rgb(253,253,150);
+  background: linear-gradient(90deg, rgba(253,253,150,1) 0%, rgba(250,240,120,1) 50%);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
-  background-image: url(../images/eww.png);
 }
