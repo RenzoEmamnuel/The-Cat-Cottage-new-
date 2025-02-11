@@ -97,7 +97,7 @@ body {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
-  background-color: #fdfd96;
+  
 }
 
 .header_section .nav_container {
@@ -910,17 +910,22 @@ a:focus {
 
 .food_section .food_container .box .detail-box h3 {
   font-weight: bold;
-  color: #fdfd96;
+  color: #b6cf7b;
+  -webkit-text-stroke: 1px black; /* Adds a black outline */
+  text-shadow: 2px 2px 4px black; /* Extra shadow for better visibility */
 }
 
 .food_section .food_container .box .detail-box h3 span {
-  color: #fdfd96;
+  color: #b6cf7b;
+  -webkit-text-stroke: 1px black; /* Ensures outline for span as well */
+  text-shadow: 2px 2px 4px black;
 }
+
 
 .food_section .food_container .box .detail-box a {
   display: inline-block;
   padding: 8px 45px;
-  background-color: #b6cf7b;
+  background-color: #fdfd96;
   color: black;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
